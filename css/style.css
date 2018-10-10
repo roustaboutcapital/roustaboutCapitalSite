@@ -184,6 +184,10 @@ mark{
 .background-dark-blue-3 {
 	background-color: #1e0b56;
 }
+.background-roust {
+	background-color: #1a1a1a;
+}
+
 .background-dark-blue-4 {
 	background-color: #050112;
 }
@@ -352,9 +356,10 @@ mark{
 	top:0;
 	left:0;
 }
-.menu-back{
+.menu-back{  /*nav menu padding and alignment*/
 	background-color: rgba(250,250,250,0);
 	padding-top: 25px;
+	padding-left: 50px;
 	padding-bottom: 25px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
@@ -392,6 +397,43 @@ mark{
 .bg-light {
   background-color: transparent !important;
 }
+
+/*Elliott's great at CSS*/
+.roustMenu ul {
+    display:inline;
+		padding: 35px 0 !important;
+		-webkit-transition: all 200ms linear;
+		transition: all 200ms linear;
+
+}
+.roustLink li {
+	text-decoration: none
+}
+.roustDiv div {
+	margin-right: 40%;
+margin-left: 40%;
+}
+.i-am-centered {
+	margin: auto;
+	max-width: 450px;
+}
+.i-am-just {
+	justify-content: space-between;
+
+}
+.i-can-fly:hover {
+		text-decoration: none;
+}
+
+.i-can-span:hover {
+	border-bottom: 3px solid currentColor;
+	line-height: 0.85;
+
+
+}
+
+
+
 .navbar {
 	padding: 0;
 	-webkit-transition : all 0.3s ease-out;
@@ -405,7 +447,7 @@ mark{
 .nav-link:active {
 	opacity: 1;
 	font-weight: 500;
-	font-size: 13px;
+	/*font-size: 13px;*/
 	text-transform: uppercase;
 }
 .nav-link,
@@ -428,7 +470,7 @@ mark{
 	margin: 0 10px;
 }
 .nav-item:last-child{
-	margin-left: 30px;
+	margin-left: 0px;
 	margin-right: 0;
 }
 .nav-item .btn{
@@ -813,6 +855,15 @@ mark{
 	background: #0e0529;
 	z-index: 300;
 }
+.ocean.roust{
+	background: #060606;
+	z-index: 300;
+}
+.ocean.roust .wave{
+	background: url('../img/wave-roust.svg') repeat-x;
+}
+
+
 .ocean.dark .wave{
 	background: url('../img/wave-dark.svg') repeat-x;
 }

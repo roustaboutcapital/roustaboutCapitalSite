@@ -5,11 +5,11 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 
 
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 240,
         "density": {
           "enable": true,
           "value_area": 800
@@ -124,11 +124,3 @@ particlesJS('particles-js',
   }
 
 );
-
-
-
-
-
-
-
-
